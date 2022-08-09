@@ -13,6 +13,7 @@
 		A2678E0828A2B36000F1A665 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2678E0628A2B36000F1A665 /* Main.storyboard */; };
 		A2678E0A28A2B36100F1A665 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2678E0928A2B36100F1A665 /* Assets.xcassets */; };
 		A2678E0D28A2B36100F1A665 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2678E0B28A2B36100F1A665 /* LaunchScreen.storyboard */; };
+		A2678E1628A2B92300F1A665 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2678E1528A2B92300F1A665 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A2678E0928A2B36100F1A665 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2678E0C28A2B36100F1A665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2678E0E28A2B36100F1A665 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2678E1528A2B92300F1A665 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		A2678DFF28A2B36000F1A665 /* CalledGame */ = {
 			isa = PBXGroup;
 			children = (
+				A2678E1428A2B90F00F1A665 /* View */,
 				A2678E0028A2B36000F1A665 /* AppDelegate.swift */,
 				A2678E0228A2B36000F1A665 /* SceneDelegate.swift */,
 				A2678E0428A2B36000F1A665 /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				A2678E0E28A2B36100F1A665 /* Info.plist */,
 			);
 			path = CalledGame;
+			sourceTree = "<group>";
+		};
+		A2678E1428A2B90F00F1A665 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A2678E1528A2B92300F1A665 /* MainViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +152,7 @@
 				A2678E0528A2B36000F1A665 /* ViewController.swift in Sources */,
 				A2678E0128A2B36000F1A665 /* AppDelegate.swift in Sources */,
 				A2678E0328A2B36000F1A665 /* SceneDelegate.swift in Sources */,
+				A2678E1628A2B92300F1A665 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

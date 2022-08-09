@@ -8,12 +8,16 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func tapLoginBtn(_ sender: UIButton) {
+        guard let viewController = self.storyboard?.instantiateViewController(identifier: "MainViewController") as? MainViewController else { return }
+        
+        viewController.modalPresentationStyle = .fullScreen
+        self.present(viewController, animated: true, completion: nil)
+    }
 }
 
