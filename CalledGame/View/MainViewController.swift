@@ -10,9 +10,16 @@ import UIKit
 class MainViewController : UIViewController {
     
     @IBOutlet weak var nameLabel: UILabel!
+    var nickName : String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        if let nickName = nickName {
+            self.nameLabel.text = nickName
+            self.nameLabel.sizeToFit()
+        }
+            
     }
     
 }

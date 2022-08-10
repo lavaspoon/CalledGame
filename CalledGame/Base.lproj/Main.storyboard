@@ -44,10 +44,13 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="7hW-Z6-b1i"/>
+                    <connections>
+                        <outlet property="nickNameText" destination="nH2-5W-k7S" id="iBu-Rv-L13"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="18.840579710144929" y="97.767857142857139"/>
+            <point key="canvasLocation" x="18.399999999999999" y="97.536945812807886"/>
         </scene>
         <!--Main View Controller-->
         <scene sceneID="YxR-nK-X42">
@@ -57,8 +60,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QuW-2R-GjR">
-                                <rect key="frame" x="305" y="64" width="50" height="50"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.crop.circle.badge.plus" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="QuW-2R-GjR">
+                                <rect key="frame" x="303.33333333333331" y="64.666666666666671" width="51.666666666666686" height="49"/>
+                                <color key="tintColor" systemColor="opaqueSeparatorColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="05a-mR-d1c"/>
                                     <constraint firstAttribute="width" constant="50" id="yye-If-JGi"/>
@@ -110,6 +114,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="person.crop.circle.badge.plus" catalog="system" width="128" height="113"/>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
